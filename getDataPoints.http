@@ -1,0 +1,7 @@
+### GET 30 RANDOM
+GET http://localhost:8080/random-data-points?directoryPath=src/main/resources/data/STOCK/LSE&numberOfFiles=2
+Accept: application/json
+
+### GET OUTLIERS
+GET http://localhost:8080/outliers?directoryPath=src/main/resources/data/STOCK/LSE&numberOfFiles=2
+Accept: application/json
